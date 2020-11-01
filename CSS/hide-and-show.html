@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #message {
+            display: none;
+            /* visibility: hidden; */
+            position: relative;
+            
+            /* opacity: 0.5; */
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolor rem dignissimos corporis laboriosam nobis nostrum cum placeat odio consequuntur pariatur reprehenderit esse sapiente error, rerum perferendis velit. Doloribus, quo.
+    </div>
+    <div id="message">
+        2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolor rem dignissimos corporis laboriosam nobis nostrum cum placeat odio consequuntur pariatur reprehenderit esse sapiente error, rerum perferendis velit. Doloribus, quo.
+    </div>
+    <div>
+        3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolor rem dignissimos corporis laboriosam nobis nostrum cum placeat odio consequuntur pariatur reprehenderit esse sapiente error, rerum perferendis velit. Doloribus, quo.
+    </div>
+
+    <script>
+        setTimeout(function() {
+            document.getElementById('message').style.display = 'block';
+        }, 2000)
+
+        // setTimeout(function() {
+        //     document.getElementById('message').style.visibility = 'visible';
+        // }, 2000)
+
+    </script>
+</body>
+</html>

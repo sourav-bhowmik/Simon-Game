@@ -1,0 +1,87 @@
+#content {
+    font-size: 40px;
+    text-align: center;
+}
+
+#one {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+
+}
+
+#two {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+
+}
+
+#three {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+
+}
+
+#four {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+
+}
+
+.dark1 {
+    background-color: #10b958;
+}
+
+.light1 {
+    background-color: #13FF75;
+}
+
+.dark2 {
+    background-color: #c61611;
+}
+
+.light2 {
+    background-color: #ff1c15;
+}
+
+
+.dark3 {
+    background-color: #dddf1a;
+}
+
+.light3 {
+    background-color: #fdff1d;
+}
+
+.dark4 {
+    background-color: rgb(111, 0, 255);
+}
+
+.light4 {
+    background-color: rgb(0, 174, 255);
+}
+
+.bt {
+    font-size: large;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+}
+
+.bt:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 3px;
+}
+
+
